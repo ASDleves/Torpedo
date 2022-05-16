@@ -36,7 +36,7 @@ static int rHely;
     }
     //Ricsi munkája:
     public static void JatekosLoves(int rHely){
-        System.out.println("\nKérlek add meg a tippelt számot! (1-7):");
+        System.out.println("\nKérlek add meg a tippelt számot! (0-6):");
         Scanner sc = new Scanner(System.in);
         int loves = sc.nextInt();
         for (int i = 0; i < palya.length; i++) {
