@@ -1,21 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package main;
 
-/**
- *
- * @author szf1_a2
- */
 public class TorpedoProgram {
-
-    /**
-     * @param args the command line arguments
-     */
+static String[] palya = new String[7];
     public static void main(String[] args) {
-        // TODO code application logic here
+        PalyaGeneral();
+       
     }
-    
+    public static void PalyaGeneral(){
+     for (int i = 0; i < palya.length ; i++) {
+            palya[i]="_";
+            System.out.print(palya[i]+" ");
+        }
+     
+    }
 }
