@@ -39,12 +39,11 @@ static int rHely;
         System.out.println("\nKérlek add meg a tippelt számot! (0-6):");
         Scanner sc = new Scanner(System.in);
         int loves = sc.nextInt();
-        for (int i = 0; i < palya.length; i++) {
             if (loves==rHely || loves==rHely+1 || loves==rHely+2) {
                 System.out.println("Talált!");
             }else{
                 System.out.println("Nem talált!");
-            }
+            
         }
     }
 }
