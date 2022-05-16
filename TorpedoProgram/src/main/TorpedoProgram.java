@@ -40,7 +40,7 @@ static int rHely;
         Scanner sc = new Scanner(System.in);
         int loves = sc.nextInt();
         for (int i = 0; i < palya.length; i++) {
-            if (loves==rHely) {
+            if (loves==rHely || loves==rHely+1 || loves==rHely+2) {
                 System.out.println("Talált!");
             }else{
                 System.out.println("Nem talált!");
